@@ -1,0 +1,17 @@
+{
+  "name": "prime-decomposition",
+  "version": "0.0.1",
+  "description": "Jquery plugin that calculate prime decomposition",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santana",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.1.1"
+  }
+}

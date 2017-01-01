@@ -1,0 +1,46 @@
+.primeDecomposition{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+
+	margin-bottom: 10px;
+	border: none;
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+}
+table.primeDecomposition{
+	border-collapse: collapse;
+}
+.primeDecomposition td{
+	padding: 0px 3px;
+}
+.primeDecomposition td:last-child{
+	text-align: left;
+	padding-left: 3px;
+	border-left: 1px solid #000;
+}
+.primeDecomposition td:nth-last-child(2){
+	padding-right: 3px;
+}
+.primeDecomposition .lcm{
+	text-align: right !important;
+	padding-left: 0.6em	!important;
+}
+.primeDecomposition .lcm .border-container{
+	position: relative;
+	display: inline-block;
+}
+.primeDecomposition .lcm .border{
+    border-top: 1px solid #000;
+    position: absolute;
+    width: 2em;
+    top: -1em;
+    left: -2.4em;
+    -moz-transform:    rotate(-35deg) translate(0.0em, -0.2em);
+	-webkit-transform: rotate(-35deg) translate(0.0em, -0.2em);
+	-ms-transform:     rotate(-35deg) translate(0.0em, -0.2em);
+	-o-transform:      rotate(-35deg) translate(0.0em, -0.2em);
+}
+
