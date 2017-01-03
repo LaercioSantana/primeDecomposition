@@ -129,4 +129,11 @@
         });
  	}
 
+ 	//static definitions
+ 	$.fn.primeDecomposition.primeFactors = function(numbers){
+ 		var escope = {};
+ 		PrimeDecomposition.prototype.__calcParams.call(escope, numbers);
+ 		return escope.factors;
+ 	}
+
 }( jQuery ));
