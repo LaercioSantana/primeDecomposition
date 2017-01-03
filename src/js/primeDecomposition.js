@@ -40,7 +40,7 @@
 				var $tr = $('<tr>');
 				$tr.append.apply($tr, new Array(this.results.length).fill("<td>"));
 				var showLcm = $('<td class="lcm">').text(this.lcm);
-				showLcm.append($('<div class="border-container">').append('<div class="border">'))
+				$('<div class="border-container">').append('<div class="border">').prependTo(showLcm);
 				$table.append($tr.append(showLcm));
 			}
 			

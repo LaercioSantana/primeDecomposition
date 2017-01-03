@@ -37,7 +37,7 @@ table.primeDecomposition{
     position: absolute;
     width: 2em;
     top: -1em;
-    left: -2.4em;
+    left: -0.7em;
     -moz-transform:    rotate(-35deg) translate(0.0em, -0.2em);
 	-webkit-transform: rotate(-35deg) translate(0.0em, -0.2em);
 	-ms-transform:     rotate(-35deg) translate(0.0em, -0.2em);
