@@ -3,6 +3,7 @@ Prime Decomposition
 
 Jquery plugin that calculate prime decomposition
 
+![Prime Decomposition](https://raw.githubusercontent.com/LaercioSantana/primeDecomposition/master/example/imgs/example.png)
 
 Usage
 -----
