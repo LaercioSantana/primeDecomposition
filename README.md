@@ -15,10 +15,10 @@ Usage
 <div id="container"></div>
 
 <script>
-				$("#container").primeDecomposition({
-					numbers: [75, 36, 45],
-					showLcm: true
-				});
+		$("#container").primeDecomposition({
+			numbers: [75, 36, 45],
+			showLcm: true
+		});
 </script>
 ```
 
@@ -42,10 +42,10 @@ Docs
 **Initialize options**
     
 ```js
-       $("#container").primeDecomposition({
-					numbers: [75, 36, 45],
-					showLcm: true
-			 });
+	$("#container").primeDecomposition({
+		numbers: [75, 36, 45],
+		showLcm: true
+	});
 ```
     
 * numbers <br />
@@ -54,7 +54,7 @@ Docs
 
 * showLcm <br />
   type: `boolean` <br />
-  description: If true, show least common multiple, not show, otherwise.
+  description: If true, show least common multiple, otherwise, not show.
     
 License
 -------
